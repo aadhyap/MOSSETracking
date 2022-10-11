@@ -9,6 +9,6 @@ if __name__ == '__main__':
 	parse.add_argument('--framepath', type=str, default='./videoData/walking/', help='frame path')
 	args= parse.parse_args()
 	tracker = MOSSE(args)
-	#tracker.tracking()
+	tracker.tracking()
 
     
