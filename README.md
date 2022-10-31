@@ -1,8 +1,22 @@
-# MOSSETracking
+# MOSSE Tracking Algorithm
+![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)   
+This is the **python** implementation of the - [Visual object tracking using adaptive correlation filters](https://ieeexplore.ieee.org/document/5539960/).
 
-Main File, this is where you can send in video path arguments and create a separate folder
-For where you want your video frames to be kept. 
+## Requirements
+- python - 3.5.2
+- opencv-python
 
---videopath this is the mp4 video that the MOSSE will read 
+## How to use the code
+### Step 1
+```bash
+python demo.py 
 
---framepath this is the frame path of everything of where all the frames will be kept, you only need to do this once
+```
+### Step2
+Use mouse to select the object which needs to be tracked and Press **Enter** to start tracking.
+
+## Demo
+![demo](https://github.com/TianhongDai/MOSSE_Object_Tracking/blob/master/examples/surfer.gif)
+
+## Reference:
+[1] [Visual object tracking using adaptive correlation filters](https://ieeexplore.ieee.org/document/5539960/)
